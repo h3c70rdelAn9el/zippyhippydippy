@@ -7,8 +7,10 @@
         </p>
       </div>
       <div class="ml-auto mr-2">
-        <span>Images by</span>
+        <span>Images on</span>
         <a href="https://www.unspash.com">Unsplash</a>
+        TODO:
+        <!-- fill out rest of credits for images -->
         <span>Logo by</span>
         <a href="https://www.logomakr.com">logomakr</a>
       </div>
