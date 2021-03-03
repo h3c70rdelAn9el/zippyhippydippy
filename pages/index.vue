@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-
+  <div class="">
+    <Carousel class="carousel" />
   </div>
 </template>
 
@@ -46,5 +46,9 @@ export default {}
 
 .links {
   padding-top: 15px;
+}
+
+.carousel {
+  margin-top: -80px;
 }
 </style>
