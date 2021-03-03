@@ -1,7 +1,7 @@
 <template>
   <div class="about z-10">
     <div class="about-content">
-      <h1 class="text-center pb-4">
+      <h1 class="about-content-title text-center pb-4">
         About Me
       </h1>
       <b-container fluid class="px-5">
@@ -10,7 +10,7 @@
             <img src="../assets/img/tim-mossholder-hrm0hf8pCdU-unsplash.jpg" alt="studio" class="about-image mx-auto d-block">
           </b-col>
           <b-col class="col-md-6">
-            <p>
+            <p class="text-center ml-1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ea!
             </p>
           </b-col>
@@ -44,6 +44,11 @@
 
 .about-content {
   padding-top: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-content-title {
+  font-family: 'Abril Fatface', cursive;
 }
 
 .about-image {

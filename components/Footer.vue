@@ -6,11 +6,10 @@
           Simple site build w/Nuxt and Bootstrap by <a href="https://github.com/h3c70rdelan9el">h3c70r</a>
         </p>
       </div>
-      <div class="ml-auto mr-2">
+      <div class="ml-auto mr-2 text-right">
         <span>Images on</span>
         <a href="https://www.unspash.com">Unsplash</a>
-        TODO:
-        <!-- fill out rest of credits for images -->
+        <br>
         <span>Logo by</span>
         <a href="https://www.logomakr.com">logomakr</a>
       </div>
@@ -23,5 +22,7 @@
     background-color: black;
     color: white;
     padding: 2px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
   }
 </style>
