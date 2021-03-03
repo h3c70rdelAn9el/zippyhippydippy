@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <Carousel class="carousel" />
+    <Footer />
   </div>
 </template>
 
