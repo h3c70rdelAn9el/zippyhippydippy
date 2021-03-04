@@ -6,7 +6,7 @@
         <b-icon icon="list" />
       </b-button>
       <div class="logo col-10 z-40 text-center">
-        <img src="../assets/img/LogoMakr-0nO1Fe.png" alt="">
+        <img src="../assets/img/LogoMakr-0oC9c0.png" alt="">
       </div>
       <div class="col-1" />
     </div>
