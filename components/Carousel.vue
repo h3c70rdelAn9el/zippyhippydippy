@@ -3,6 +3,7 @@
     <b-carousel
       id="carousel"
       v-model="slide"
+      fade
       :interval="4000"
       controls
       indicators

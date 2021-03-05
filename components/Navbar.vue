@@ -6,7 +6,9 @@
         <b-icon icon="list" />
       </b-button>
       <div class="logo col-10 z-40 text-center">
-        <img src="../assets/img/LogoMakr-0oC9c0.png" alt="">
+        <nuxt-link to="/">
+          <img src="../assets/img/LogoMakr-0oC9c0.png" alt="">
+        </nuxt-link>
       </div>
       <div class="col-1" />
     </div>
@@ -14,6 +16,9 @@
       <div class="px-3 py-2">
         <nuxt-link to="/about">
           <p>About</p>
+        </nuxt-link>
+        <nuxt-link to="/works">
+          <p>Works</p>
         </nuxt-link>
       </div>
     </b-sidebar>
