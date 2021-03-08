@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-button v-b-modal="'modal' + id" modal-center>
+    <!-- <b-button v-b-modal="'modal' + id" modal-center>
       works piece
     </b-button>
     <b-modal :id="'modal-center' + id" centered title="BootstrapVue">
@@ -9,6 +9,19 @@
       </p>
       <p>
         this is called
+      </p>
+      inside here place artwork
+    </b-modal> -->
+
+    <b-button v-b-modal="'modal' + id">
+      this works piece
+    </b-button>
+    <b-modal :id="'modal' + id" centered title="BootstrapVue">
+      <p class="my-4">
+        Vertically centered modal!
+      </p>
+      <p>
+        this is called {{ title }}
       </p>
       inside here place artwork
     </b-modal>

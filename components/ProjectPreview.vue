@@ -1,7 +1,7 @@
 <template>
   <div class="art-preview d-flex flex-column align-items-center">
-    <h1>{{ title }}</h1>
     <img :src="image" alt="" class="preview-image">
+    <p>{{ description }}</p>
   </div>
 </template>
 
@@ -34,8 +34,11 @@ export default {
     color: gray;
   }
 
+  .art-title {
+  }
+
   .preview-image {
-    height: 200px;
-    width: 200px
+    height: 300px;
+    width: 300px
   }
 </style>
