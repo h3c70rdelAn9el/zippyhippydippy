@@ -69,7 +69,6 @@ export default {
         },
         {
           title: 'Paleness',
-          // image: require('../assets/img/europeana-VsnDYMWollM-unsplash.jpg'),
           image: require('../assets/img/steve-johnson-e5LdlAMpkEw-unsplash.jpg'),
           index: '4',
           description: "It's amazing what you can do with a little love in your heart. No worries. No cares. Just float and wait for the wind to blow you around."

@@ -1,4 +1,3 @@
-
 <template>
   <div class="sticky-top">
     <div class="row align-content-start justify-content-between">
