@@ -62,7 +62,6 @@ export default {
         },
         {
           title: 'Waiting',
-          // image: require('../assets/img/europeana-VsnDYMWollM-unsplash.jpg'),
           image: require('../assets/img/tim-mossholder-hrm0hf8pCdU-unsplash.jpg'),
           index: '3',
           description: "It's a good way of getting rid of all your anxieties and hostilities. Mountains are so simple, they're hard. Just let your mind wander and enjoy. This should make you happy."
@@ -84,6 +83,7 @@ export default {
     background-color: rgb(49, 5, 49);
     margin-top: -85px;
     color: white;
+    height: 100vh;
   }
 
   .card {

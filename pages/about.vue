@@ -22,11 +22,11 @@
             </p>
           </b-col>
           <b-col>
-            <img src="../assets/img/tim-mossholder-hrm0hf8pCdU-unsplash.jpg" alt="studio" class="about-image mx-auto d-block">
+            <img src="../assets/img/pierre-bamin-_HymxEhaKjQ-unsplash.jpeg" alt="studio" class="about-image mx-auto d-block">
           </b-col>
         </b-row>
         <div class="credits">
-          <span>Photos by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Mossholder</a> and  <a href="https://unsplash.com/@eduardo_mekmuffin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eddy Klaus</a> on <a href="https://unsplash.com/s/photos/artist?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+          <span>Photos by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Mossholder</a> and  <a href="https://unsplash.com/@pierre_bamin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Pierre Banin</a> on <a href="https://unsplash.com/s/photos/artist?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
         </div>
       </b-container>
     </div>
@@ -38,13 +38,13 @@
   background: rgb(109,122,203);
   background: linear-gradient(184deg, rgba(109,122,203,1) 0%, rgba(1,5,17,1) 73%);
   margin-top: -85px;
-  height: 100%;
   color: white;
 }
 
 .about-content {
   padding-top: 100px;
   font-family: 'Poppins', sans-serif;
+  height: 100%;
 }
 
 .about-content-title {
