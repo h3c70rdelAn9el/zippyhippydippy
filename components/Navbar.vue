@@ -13,17 +13,41 @@
       <div class="col-1" />
     </div>
     <b-sidebar id="sidebar-variant" title="" bg-variant="dark" text-variant="light" shadow>
-      <div class="px-3 py-2">
-        <nuxt-link to="/about">
-          <p>About</p>
-        </nuxt-link>
-        <nuxt-link to="/works">
-          <p>Works</p>
+      <div v-for="link in links" :key="link.id" class="px-3 py-2">
+        <nuxt-link :to="link.route" class="link">
+          {{ link.page }}
         </nuxt-link>
       </div>
     </b-sidebar>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      links: [
+        {
+          page: 'Home',
+          route: '/'
+        },
+        {
+          page: 'About',
+          route: '/about'
+        },
+        {
+          page: 'Projects',
+          route: '/projects'
+        },
+        {
+          page: 'Contact',
+          route: '/contact'
+        }
+      ]
+    }
+  }
+}
+</script>
 
 <style scoped>
   .logo {
@@ -38,4 +62,9 @@
   .menu-button {
     height: 40px;
   }
+
+  .link {
+    color: white;
+  }
+
 </style>
