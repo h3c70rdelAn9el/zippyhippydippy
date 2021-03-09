@@ -1,4 +1,4 @@
-# pj-site
+# bs-site
 
 ## Build Setup
 
@@ -18,3 +18,5 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+Simple site using Nuxt and BootstrapVue.
